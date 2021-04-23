@@ -1,5 +1,5 @@
 {
-  "name": "@soups-libs/uikit",
+  "name": "@soups-toolkit/uikit",
   "version": "0.25.3",
   "description": "Set of UI components for soups finance projects",
   "main": "dist/index.cjs.js",
