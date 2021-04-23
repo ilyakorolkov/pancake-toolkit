@@ -19,15 +19,7 @@
     "build": "lerna run build",
     "test": "lerna run test",
     "lint": "lerna run lint",
-    "format:check": "lerna run format:check",
-    "storybook:build": "lerna run storybook:build",
     "release": "yarn build && yarn lerna publish"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "yarn format:check",
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
   },
   "devDependencies": {
     "@babel/core": "^7.13.14",
